@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS =Cascading style sheet</title>
+    <style>
+        h1{
+            color: brown;
+            background-color: seagreen;
+            height: 90px;
+            width: 70%;
+        }
+        h2{
+            color: darkblue;
+            background-color: rgb(211, 211, 35);
+            height: 90px;
+            width: 70%;
+            font-family: fantasy;
+        }
+        p{
+            color: salmon;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        img{
+            width: 30%;
+        }
+        #css{
+            color: tomato;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: 750;
+        }
+        #fuchka{
+            font-size: 45px;
+            font-weight: 800;
+        }
+        .friend{
+            color: palevioletred;
+            background-color: rgb(4, 65, 65);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2.friend{
+            font-size: 60px;
+        }
+        #des{
+            color: red;
+        }
+        .tour{
+            border: 10px solid black;
+            margin: 20px;
+            background-color: saddlebrown;
+            height: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tour">
+        <h3>Sajek</h3>
+        <p>shudhu gas pala r gas pala</p>
+    </div>
+    <div class="tour">
+        <h3>saint martin</h3>
+        <p>khali pani r pani</p>
+    </div>
+    <div class="tour">
+        <h3>Shundarbaan</h3>
+        <p>baag theke vhoy peyo na</p>
+    </div>
+
+    <h1>Adding make up. YAY!!!!!!!</h1>
+    <h1>another header</h1>
+    <h1>thried header</h1>
+    <h2 class="friend">This is just mediaum</h2>
+    <h2 >Hubby tmi boshe thako</h2>
+    <p id="fuchka">hubby fuchka khabo.</p>
+    <p>give me something more.</p>
+    <p id="css" class="friend">feeling exiceted for learning css</p>
+    <p>sadman atman doshman noy mon</p>
+    <p class="friend">ekhn theke shuru r ami thambo na</p>
+    <p class="friend">jani ami ank hyto deri kore <span id="des">felesi but ami </span>new kisu chai</p>
+    <p class="friend">shobar theke ektu alada kisu.....</p>
+    <img src="images/download.JPG" alt="">
+    
+</body>
+</html>
